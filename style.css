@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100&family=Beau+Rivage&family=Bebas+Neue&family=Festive&family=Grape+Nuts&family=Montserrat:wght@400;900&family=Ms+Madi&family=Nunito&family=Nunito+Sans&family=Open+Sans:wght@400;500;600&family=Oswald:wght@200;700&family=Poppins:wght@300;500&family=Quintessential&family=Roboto+Condensed:wght@400;700&family=RocknRoll+One&family=Smooch+Sans:wght@200&family=Spectral:wght@700&family=Vollkorn:wght@500&display=swap');
+
+  header{
+    background-color: rgb(233, 129, 238);
+    padding: 20px;
+    width: 100%;
+    cursor: pointer;
+  }
+
+.menu {
+   padding: 1%;
+   height: 10%;
+   background-color:rgb(144, 19, 144);
+}
+
+  h1{
+    color: white;
+    display: inline-block;
+  }
+
+  ul{
+    display: inline-block;
+    width: 79%;
+    text-align: center;
+    word-spacing: 50px;
+  }
+
+  li{
+    display: inline;
+    margin-left: 10px;
+    color: white;
+    font-weight: 600px;
+    font-size: 20px;
+    cursor: pointer;
+
+  }
+  li:hover, a:hover{
+      color: rgb(144, 19, 144);
+    }
+
+  a{
+    margin-left: 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+.adote{
+  height: 10px;
+}
+
+  .container{
+    margin: 20px 20px;
+    width: 500px;
+
+
+    }
+
+  .container button{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 100%;
+    cursor: pointer;
+    background: rgb(98, 22, 102);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .caixa{
+    width: 80%;
+    margin: 0px 20px;
+  }
+
+  .caixa h2, p{
+    margin-bottom: 10px;
+  }
+
+  .caixa button{
+    background: rgb(144, 19, 144);
+    color: rgb(243, 234, 243);
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .img-luna{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 200px;
+    transition: 1s all;
+  }
+  .img-luna:hover{
+    transform: rotate(360deg);
+  }
+
+  .caixa-adote{
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .caixa-adote h2, p{
+    margin-top: 10px;
+  }
+
+
+  .luna{
+    display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    border-bottom: 2px solid lightgray;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin: 20px 20px;
+    transition: 1s all;
+    overflow: hidden;
+  }
+
+  .luna:hover{
+    transform: scale(1.1);
+    background: rgb(233, 129, 238);
+  }
+
+  .duque{
+    display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    border-bottom: 2px solid lightgray;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin: 20px 20px;
+    transition: 1s all;
+    overflow: hidden;
+  }
+
+  .duque:hover{
+    transform: scale(1.1);
+    background: rgb(233, 129, 238);
+  }
+
+  .pretinha{
+    display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    border-bottom: 2px solid lightgray;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin: 20px 20px;
+    transition: 1s all;
+    overflow: hidden;
+  }
+
+  .pretinha:hover{
+    transform: scale(1.1);
+    background: rgb(233, 129, 238);
+  }
+
+  .pepito{
+    display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    border-bottom: 2px solid lightgray;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin: 20px 20px;
+    transition: 1s all;
+    overflow: hidden;
+  }
+
+  .pepito:hover{
+    transform: scale(1.1);
+    background: rgb(233, 129, 238);
+  }
+
+  figcaption{
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  button{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 25px;
+
+    font-weight: bold;
+    cursor: pointer;
+    background: rgb(228, 175, 231);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+  }
+
+
+  img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .osbtn{
+    background-color: blueviolet;
+  }
+
+  @media(max-width: 500px){
+    body{
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    h1{
+      font-size: 20px;
+      color: purple;
+    }
+
+    ul{
+      margin-top: 20px;
+      text-align: initial;
+      display: block;
+      width: 83%;
+    }
+
+    li{
+      display: block;
+      margin-left: 0px;
+      margin-top: 10px;
+      color: purple;
+      cursor: pointer;
+      padding: 5px;
+    }
+    li:hover{
+      background: white;
+    }
+    a{
+      color: purple;
+      margin-left: 0;
+    }
+
+  }
+
+  @media(max-width: 371px){
+
+  }
+
+    .container button{
+
+      padding: 5px;
+      width: 85px;
+      font-size: 10px;
+    }
